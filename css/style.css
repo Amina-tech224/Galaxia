@@ -1,0 +1,35 @@
+header {background-color: rgb(189, 219, 202);text-align: center; font-size: 40px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {background-color: rgb(255, 245, 235);}
+
+h1{background-color: #f5efe6; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #333;}
+
+
+h2 { font-size: 30px; text-align: center;
+background-color: rgb(255, 167, 51);}
+
+h4 {font-size: 30px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center; background-color:rgb(255, 167, 51) ;}
+
+p{text-align: left; font-size: 20px; margin: 20px; line-height: 1.6;}
+
+img{ width: 40%; border-radius: 10px; display: block; margin: auto;}
+
+
+.subheader{font-weight: 100; font-size: 25px;}
+
+.button {background-color: rgb(255, 167, 51);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: overline;
+  font-size: 16px;
+  display: block;
+  margin: 10px;}
+
+.main-header{ padding: 30px;}
+.history{background-color: #f5efe6; padding:20px; margin:20px;}
+.puzzle-types{padding: 20px;}
+
+.puzzle-container{display:flex; gap: 25px;}
+.puzzle-card{background-color: #f5efe6; border-radius: 15px; padding: 20px; box-shadow: 3px;}
+.puzzle-card img{width: 40%; border-radius: 10px; padding:20px; box-shadow: 3px;}
