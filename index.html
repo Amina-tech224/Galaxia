@@ -2,18 +2,33 @@
 <html lang="en">
   <head> 
     <title>BUILDING JOY IN 3D</title> 
+    <!--Bootstrap link-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+      QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+      crossorigin="anonymous">
     <!-- Link to the stylesheet called style.css-->
     <link rel="stylesheet" href="./css/style.css" />
   </head> 
   <body> 
-     <p class="button">Click here to learn more about 3D Puzzles <a href="page2.html">Read more on Page 2</a>
-</p>
+    <div class="container mt-4">
 
-    <header id="main-header">
+    </div>
+     <p class="button">Click here to learn more about 3D Puzzles <a href="page2.html" 
+      class="btn btn-success btn-lg">Read more on Page 2</a>
+     </p>
+     <div class="container">
+      <div class="row">
+        <div class="col"> <h2> HISTORY OF 3D PUZZLES</h2></div>
+        <div class="col"> <h3> TYPES OF 3D PUZZLES</h3></div>
+
+      </div>
+     </div>
+
+    <header id="main-header" class="text-center mb-4 p-4 bg-light rounded shadow-sm">
 <!-- This section talks about the meaning and history of 3D puzzles -->
     
       <h1>WHAT ARE 3D PUZZLES</h1>
-      <p class="subheader">
+      <p class="lead">
         3D puzzles are hands on models that you assemble piece by piece to create a three dimensional object. Unlike a traditional 
         flat jingsaw puzzles, these 3D puzzles build upward and outward making structures like buildings, vehicles, animals etc... basically like legos.
         They can be made from wood, plastic, metal, foam and they range from simple beginner to detailed advanced builds with hundreds of parts.
@@ -23,7 +38,9 @@
         <article>
     <img src="./images/marble run puzzle.jpg" alt="An image of a 3D Marble Run puzzle" width="35%" />
 <!-- This section is for the history of 3D puzzles -->
-  <section id="history">
+  <div class="row mt-5">
+
+   <section id="history" class="col-md-6 mb-4">
     <h2>HISTORY OF 3D PUZZLES</h2>
     <p class="subheader">
         3D puzzles started in the early 20th century, when wooden mechanical models and hand crafted architectural replicas first caught people's attention
@@ -36,7 +53,7 @@
         who just want to try it to collectors. Each puzzle has a bit of history, very intricate craftmanship and a whole lot of joy for anyone who loves building something fun.
     </p>
   </section>
-  <section id="puzzle-types">
+  <section id="puzzle-types" class="col-md-6 mb-4">
 <!-- This section is for the types of 3D puzzles I did not include foam 3D puzzles because I'm not familiar with them -->
 
     <h3> TYPES OF 3D PUZZLES</h3>
@@ -46,7 +63,7 @@
     </P>
 <!-- Unordered list and ordered list showing the types of 3D puzzles, difficulties and price range -->
     <ul class="puzzle-container">
-      <li class="puzzle-card">
+      <li class="puzzle-card p-3 mb-4 shadow-sm">
         Wooden 3D Puzzles: they are warm, tactile and really satisfying to build (if you like the smell of wood this might be for you). Most of it is mechanical models with gears, levers 
         and a lot of moving parts while others are tiny laser cut pieces that look like a work of art.
         <ol>
@@ -59,7 +76,7 @@
       <p class="subheader"> I love them because they feel handcrafted, durable (unless you accidently drop it) and they make beautiful display pieces</p>
      </li>
     
-     <li class="puzzle-card">
+     <li class="puzzle-card p-3 mb-4 shadow-sm">
         Plastic 3D Puzzles: they can include curved jigsaw spheres to very detailed models of building, animals etc...They're more colorful, light and great for beginners.
       <ol>   
         <li>-Difficulty: Easy to medium (can be hard)</li>
@@ -70,7 +87,7 @@
         <img src="./images/plasticpuzzle.jpg" alt="An image of a 3D plastic" width="40%" />
         
      </li>   
-     <li class="puzzle-card">
+     <li class="puzzle-card p-3 mb-4 shadow-sm">
         Metal 3D Puzzles: They're very shiny and sleek can be a bit brain exhausting because of the tiny pieces depending on which one you get.
         I have not tried any yet but I want to in the future.
        <ol>   
