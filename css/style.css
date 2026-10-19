@@ -13,7 +13,7 @@ color: #333}
 
 p{text-align: left; font-size: 20px; margin: 20px; line-height: 1.6;}
 
-img{ width: 40%; border-radius: 10px; display: block; margin: auto;}
+img{ width: 60%; border-radius: 10px; display: block; margin: auto;}
 
 
 .subheader{font-weight: 100; font-size: 25px;}
@@ -26,9 +26,17 @@ img{ width: 40%; border-radius: 10px; display: block; margin: auto;}
 .history{background-color: #f5efe6; padding:20px; margin:20px;}
 .puzzle-types{padding: 20px;}
 
-.puzzle-container{display:flex; gap: 25px;}
+.puzzle-container{display:flex; gap: 25px;
+justify-content: space-between;}
 
 
+
+.puzzle-container > div {flex:1; min-width: 300px; padding: 15px;}
+.puzzle-container img {width: 100%; max-width: 200px;}
+
+.puzzle-container > div { flex: 1; background-color: #f5efe6; 
+  padding: 20px; border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);}
 
       
  .flex-container > div {
@@ -47,6 +55,8 @@ img{ width: 40%; border-radius: 10px; display: block; margin: auto;}
           align-items: center;
         }
       }
+
+      @media (max-width: 768px) { .puzzle-container { flex-direction: column;}}
 
 .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;} 
 .gallery img{width: 250px; border-radius: 10px;}     
